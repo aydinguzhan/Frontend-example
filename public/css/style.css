@@ -26,6 +26,24 @@
     border: none;
     font-family: 'Roboto', sans-serif;
 }
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: var(--first-dark); 
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--first-orange) ; 
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--first-orange) ; 
+  }
 ul{
     list-style: none;
 }
