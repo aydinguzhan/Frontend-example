@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --first-dark : #400E32;
+    --second-dark : #1111;
+    --first-orange : #A61F69;
+    --first-white : #ffff;
+    --font-size-s : 8px;
+    --font-size-m : 16px;
+    --font-size-l : 24px;
+    --font-size-xl :32px;
+    --font-size-xxl : 48px;
+    --font-weight-skiny : 400;
+    --font-weight-bold: 600;
+    --font-size-extrabold: 900;
+    --radius-s : 8px;
+    --radius-m: 16px;
+    --radius-l : 24px;
+    --radius-xl : 50%
+
+}
+*{
+    margin : 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background-color: var(--first-dark);
+    height: 12vh;
+}
+.logo > a {
+    color: var(--first-white);
+    font-size: var(--font-size-xl);
+}
+.logo >:nth-child(2){
+    margin-right: var(--font-size-xxl);
+}
+#Header{
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+#Header > h1 {
+    font-size: calc(var(--font-size-xxl)*1.2);
+    letter-spacing: var(--font-size-s);
+    color : var(--first-orange);
+}
+#Header > p {
+    font-size: var(--font-size-xl);
+    letter-spacing: var(--font-size-s);
+    font-weight: var(--font-weight-skiny);
+}
+ #Header > p {
+    margin-top: var(--font-size-xl);
+ }
+#Main{
+    display: flex;
+    flex-direction: row;
+    margin: auto var(--font-size-xxl);
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box > img{
+    max-width: 550px;
+    border-radius: var(--radius-m);
+}
+.box > .sidebar-component{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--font-size-xl) ;
+}
+li{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-width: 20em;
+    width: 20em;
+    height: 20em;
+    background: var(--first-white);
+    margin: var(--font-size-s);
+    transition: all .3s;
+}
+li > a{
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--font-size-s);
+    color: var(--first-orange);
+    transition: all .3s;
+}
+
+li:hover{
+    background-color: var(--first-orange);
+    color: var(--first-white);
+}
+li:hover > a {
+    color: var(--first-white);
+}
+aside {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.content-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: var(--font-size-l);
+    background-color: var(--first-white);
+    margin: auto var(--font-size-l);
+}
+.content-box > .subbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-height: 5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.subbox > img {
+    max-width: 14rem;
+    height: auto;
+}
+.text-content > p {
+    width: 100%;
+    text-align: justify;
+    font-size: var(--font-size-xl);
+}
+.text{
+    font-size: var(--font-size-l);
+    letter-spacing: .1em;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: var(--first-white);
+    }
+    .content-box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    li{
+        width: 15em;
+        height: 15em;
+        border: 1px solid var(--first-dark)
+    }
+    .text-content {
+        width: 100%;
+        text-align: center;
+        margin-top: .8em;
+    }
+    .purple-box{
+        width: 100%;
+        height: 1em;
+        margin-top: var(--font-size-xl);
+        margin-bottom: var(--font-size-xl);
+        background-color: #400E32;
+    }
+    .subbox > img {
+    width: 10rem;
+    height: auto;
+}
+  }
