@@ -1,7 +1,6 @@
 async function getData() {
     let response = await fetch("../public/js/data.json");
     let data = await response.json();
-    console.log(data)
 
 
   
@@ -26,8 +25,6 @@ async function getData() {
         document.querySelector("aside").append(contentbox);
         
 
-       
-       console.log(data.title[i])
     }
 }
 getData()
