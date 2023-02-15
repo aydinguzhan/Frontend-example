@@ -2,16 +2,19 @@
     "title": [
         "Temel JavaScript Repom",
         "HTML - CSS Repom",
-        "Bookmarks-Chrome extension "
+        "Dashboard -Web Component",
+        "Bookmarks-Chrome extension ",
     ],
     "link" : [
         "https://github.com/aydinguzhan/temel_javascript",
         "https://github.com/aydinguzhan/netflix",
-        "https://github.com/aydinguzhan/chrome-extension"
+        "https://github.com/aydinguzhan/chrome-extension",
+        "https://inspiring-chimera-f66eea.netlify.app",
     ],
     "src": [
         "https://i.pinimg.com/originals/28/75/3d/28753ddf79d70042ba86564947e13bf5.png",
         "https://i.pinimg.com/originals/28/75/3d/28753ddf79d70042ba86564947e13bf5.png",
-        "https://i.pinimg.com/originals/28/75/3d/28753ddf79d70042ba86564947e13bf5.png"
+        "https://i.pinimg.com/originals/28/75/3d/28753ddf79d70042ba86564947e13bf5.png",
+        "https://i.pinimg.com/originals/28/75/3d/28753ddf79d70042ba86564947e13bf5.png",
     ]
 }
