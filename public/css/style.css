@@ -179,7 +179,7 @@ aside {
     font-size: var(--font-size-l);
     letter-spacing: .1em;
 }
-.Footer{
+#Footer{
     height : 10em;
     background :  var(--first-dark);
     color: white;
