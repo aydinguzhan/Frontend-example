@@ -122,8 +122,8 @@ li{
     align-items: center;
     flex-direction: row;
     min-width: 12em;
-    width: 15em;
-    height: 15em;
+    width: 14em;
+    height: 14em;
     background: var(--first-white);
     margin: auto var(--font-size-s);
     transition: all .3s;
