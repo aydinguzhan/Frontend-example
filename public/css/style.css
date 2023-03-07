@@ -121,9 +121,9 @@ li{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    min-width: 20em;
-    width: 20em;
-    height: 20em;
+    min-width: 12em;
+    width: 15em;
+    height: 15em;
     background: var(--first-white);
     margin: auto var(--font-size-s);
     transition: all .3s;
