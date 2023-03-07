@@ -113,7 +113,7 @@ a{
     justify-content: center;
     align-items: center;
     margin-top: var(--font-size-xl) ;
-   
+    width : 100%;
 }
 li{
     display: inline-flex;
