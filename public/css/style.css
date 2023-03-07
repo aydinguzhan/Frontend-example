@@ -121,11 +121,13 @@ li{
     align-items: center;
     flex-direction: row;
     min-width: 20em;
+    width: 20em;
     height: 20em;
     background: var(--first-white);
     margin: var(--font-size-s);
     transition: all .3s;
     border:1px solid red;
+    margin: auto 2em;
 }
 li > a{
     font-size: var(--font-size-xl);
