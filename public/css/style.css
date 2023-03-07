@@ -63,7 +63,7 @@ a{
     align-items: center;
     width: 100%;
     background-color: var(--first-dark);
-    height: 12vh;
+    height: 10vh;
 }
 .logo > a {
     color: var(--first-white);
