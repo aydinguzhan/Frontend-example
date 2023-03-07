@@ -207,7 +207,7 @@ aside {
     li{
         width: 15em;
         height: 15em;
-        border: 1px solid var(--first-dark)
+       
     }
     .text-content {
         width: 100%;
