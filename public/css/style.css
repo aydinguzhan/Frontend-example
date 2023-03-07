@@ -184,10 +184,11 @@ aside {
     display:flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height : 5em;
     background :  var(--first-dark);
     color: white;
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-s);
     letter-spacing: var(--font-size-s);
     font-weight: var(--font-weight-skiny);
 }
