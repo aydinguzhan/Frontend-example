@@ -179,6 +179,11 @@ aside {
     font-size: var(--font-size-l);
     letter-spacing: .1em;
 }
+.Footer{
+    height : 10em;
+    background :  var(--first-dark);
+    color: white;
+}
 @media only screen and (max-width: 600px) {
     body {
       background-color: var(--first-white);
