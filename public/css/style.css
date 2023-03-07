@@ -183,6 +183,10 @@ aside {
     height : 10em;
     background :  var(--first-dark);
     color: white;
+    font-size: var(--font-size-xl);
+    letter-spacing: var(--font-size-s);
+    font-weight: var(--font-weight-skiny);
+    padding : var(--font-size-s);
 }
 @media only screen and (max-width: 600px) {
     body {
