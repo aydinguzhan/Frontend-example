@@ -93,7 +93,7 @@ a{
 #Main{
     display: flex;
     flex-direction: row;
-    margin: auto var(--font-size-xxl);
+    margin: var(--font-size-xxl);
 }
 .box{
     width: 100%;
